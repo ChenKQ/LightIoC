@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+  <instance typename="IShut" tnamespace="TemplateCore" tclassname="Dog" tassemblyname="TemplateCore"/>
+  <!--<instance typename="IShut" tnamespace="Template" tclassname="Cat" tassemblyname="Template"/>-->
+  <!--<instance mode="naming" typename="ISwim" tnamespace="Template.Example" tclassname="" tassemblyname="Template"/>-->
+</objects>

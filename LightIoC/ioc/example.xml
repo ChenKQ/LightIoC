@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+  <instance typename="IFly" tnamespace="Template.Example" tclassname="Bird" tassemblyname="Template"/>
+  <!--<instance mode="naming" typename="ISwim" tnamespace="Template.Example" tclassname="" tassemblyname="Template"/>-->
+</objects>
