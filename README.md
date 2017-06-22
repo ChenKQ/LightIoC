@@ -13,7 +13,7 @@ Add the folder of libs in app.conf as can seen following. This dynamic assembly 
     &lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt; \
       &lt;probing privatePath="plugins;Template"/&gt; \
     &lt;/assemblyBinding&gt; \
-  &lt;/runtime&gt; \
+  &lt;/runtime&gt; 
 
 
 # Example
@@ -22,4 +22,4 @@ Add the folder of libs in app.conf as can seen following. This dynamic assembly 
       IShut animal = (IShut)Instance.createInstance("IShut"); \
       animal.shut(); \
       Thread.Sleep(1000); \
-  } \
+  } 
