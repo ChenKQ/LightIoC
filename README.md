@@ -9,11 +9,11 @@ Modify the file of IoC settings. An example can be seen in ioc/example.xml
    "typename" is the Interface or base class. "tnamespace" figures out the namespace of instance. "tclassname" is the name of class of instance. "tassemblyname" is the assembly name.
 ## 3. configure app.conf
 Add the folder of libs in app.conf as can seen following. This dynamic assembly should be in the main folder.
-  &lt;runtime &gt;
-    &lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;
-      &lt;probing privatePath="plugins;Template"/&gt;
-    &lt;/assemblyBinding&gt;
-  &lt;/runtime&gt;
+  &lt;runtime &gt; \
+    &lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt; \
+      &lt;probing privatePath="plugins;Template"/&gt; \
+    &lt;/assemblyBinding&gt; \
+  &lt;/runtime&gt; \
 
 
 # Example
