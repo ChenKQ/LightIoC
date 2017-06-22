@@ -10,16 +10,16 @@ Modify the file of IoC settings. An example can be seen in ioc/example.xml
 ## 3. configure app.conf
 Add the folder of libs in app.conf as can seen following. This dynamic assembly should be in the main folder.
   &lt;runtime &gt; \
-    &lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt; \
-      &lt;probing privatePath="plugins;Template"/&gt; \
-    &lt;/assemblyBinding&gt; \
+    &npsp;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt; \
+      &npsp;&npsp;&lt;probing privatePath="plugins;Template"/&gt; \
+    &npsp;&lt;/assemblyBinding&gt; \
   &lt;/runtime&gt; 
 
 
 # Example
   while (true) \
   { \
-      IShut animal = (IShut)Instance.createInstance("IShut"); \
-      animal.shut(); \
-      Thread.Sleep(1000); \
+      &npsp;IShut animal = (IShut)Instance.createInstance("IShut"); \
+      &npsp;animal.shut(); \
+      &npsp;Thread.Sleep(1000); \
   } 
